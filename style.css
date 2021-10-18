@@ -73,24 +73,34 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-  #lezioni {
-    display: block;
-    float: none;
-    background-color: blue;
-    max-width: 400px;
-    text-align: center;
-    margin: 0 auto;
+  body {
+    margin: 0 0;
   }
 
   .row {
-    float: none;
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
   }
 
-  .left {
+  #lezioni .row > .left,
+  #lezioni .row > .right {
     float: none;
+    margin: 0 auto;
+    width: 100%;
   }
 
-  .right {
+  #lezioni,
+  #why {
+    background-color: rgb(230, 230, 105);
+    margin: 0 auto;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
     float: none;
+    margin: 0 auto;
+    width: 100%;
   }
 }
