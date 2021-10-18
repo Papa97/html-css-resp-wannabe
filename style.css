@@ -72,6 +72,7 @@ img {
   clear: both;
 }
 
+/* Versione Smartphone */
 @media screen and (max-width: 420px) {
   body {
     margin: 0 0;
@@ -79,7 +80,7 @@ img {
 
   .row {
     max-width: 340px;
-    margin: 0 auto;
+    margin: -21px auto;
     text-align: center;
   }
 
@@ -96,9 +97,30 @@ img {
     margin: 0 auto;
   }
 
+  #steps {
+    background-color: white;
+  }
+
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/* Versione Tablet */
+
+@media screen and (max-width: 840px) {
+  .row {
+    max-width: 640px;
+    margin: -0 auto;
+    text-align: center;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
     float: none;
     margin: 0 auto;
     width: 100%;
