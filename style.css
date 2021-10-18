@@ -71,3 +71,26 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+  #lezioni {
+    display: block;
+    float: none;
+    background-color: blue;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .row {
+    float: none;
+  }
+
+  .left {
+    float: none;
+  }
+
+  .right {
+    float: none;
+  }
+}
